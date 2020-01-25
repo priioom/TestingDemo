@@ -1,0 +1,87 @@
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: red;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+header {
+  position: relative;
+ /* background-color: black;*/
+  /*height: 75vh;*/
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+#exampleModal > div > div > div.card-header.text-center.col-lg-12 > button{
+  right:5px !important;
+}
+
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+.card{
+  background: transparent;
+}
+
+.cardframe{
+      background-color: peachpuff;
+
+}
+/*.cardframe .card-body{
+   background-color: black;
+  opacity: 0.4; 
+}*/
+.img-responsive{
+  padding: 0px;
+}
+/*.overlay {
+  position: absolute;
+  top:0%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.4;
+  z-index: 1;
+}*/
+.card-body{
+  color: black;
+  text-align: justify;
+}
+.Card-header{
+  color: black;
+}
+.font{
+  color:black;
+}
+@media (pointer: coarse) and (hover: none) {
+/*  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }*/
+.Adimagesd{
+  width: 100%;
+  /*padding-bottom: 0px !important;*/
+  margin-bottom: 0px !important;
+}
+.imgCardReply{
+  width: 20%;
+}
+}
